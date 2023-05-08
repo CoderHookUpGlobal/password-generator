@@ -32,8 +32,8 @@
         </div>
         <hr>
         <div class="form-group">
-            <label for="passwordLength">Password Length: <span id="passwordLengthText">16</span></label>
-            <input type="range" class="form-control-range" id="passwordLength" min="8" max="32" value="16" />
+            <label for="passwordLength">Password Length: <span id="passwordLengthText">32</span></label>
+            <input type="range" class="form-control-range" id="passwordLength" min="8" max="32" value="32" />
         </div>
         <hr>
         <div class="form-group">
@@ -73,9 +73,9 @@
             </button>
         </div>
         <hr>
-        <div class="form-group">
-            <label for="password">Your Password:<span id="passwordDisplay"></span></label>
-            <input type="hidden" id="password" readonly />
+        <div>
+            <div><label for="password">Your Password:</label></div>
+            <div><textarea cols="32" rows="4" id="password" readonly></textarea></div>   
         </div>
     </div>
 
@@ -99,5 +99,4 @@
 </body>
 
 </html><!-- HTML !-->
-<button class="button-46" role="button">Button 46</button>
-
+ 
