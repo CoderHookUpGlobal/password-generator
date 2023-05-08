@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;550;600;700&display=swap");
 
 body {
     font-family: "Poppins", sans-serif;
@@ -84,7 +83,7 @@ input[type="range"]::-ms-thumb {
 
 #generateButton {
     margin-right: 10px;
-    background-color: #352f44;
+    background-color: #c5d1d3;
     border: 1.5px solid #352f44;
     font-weight: 500;
 }
