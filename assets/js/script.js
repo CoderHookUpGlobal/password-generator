@@ -1,31 +1,20 @@
-$(document).ready(function () {
-  // Generate a random password
-  function generatePassword() {
-    var passwordLength = $("#passwordLength").val();
-    var includeUppercase = $("#uppercaseCheckbox").prop("checked");
-    var includeLowercase = $("#lowercaseCheckbox").prop("checked");
-    var includeNumbers = $("#numbersCheckbox").prop("checked");
-    var includeSymbols = $("#symbolsCheckbox").prop("checked");
 
-    var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
-    var numberChars = "0123456789";
-    var symbolChars = "!@#$%^&*()_-+={}[]|\\:;\"'<>,.?/";
+document.addEventListener("DOMContentLoaded", () => {
+  main();
+});
 
-    var chars = "";
-    if (includeUppercase) chars += uppercaseChars;
-    if (includeLowercase) chars += lowercaseChars;
-    if (includeNumbers) chars += numberChars;
-    if (includeSymbols) chars += symbolChars;
+let $ = document.getElementById;
 
-    var password = "";
-    for (var i = 0; i < passwordLength; i++) {
-      var randomIndex = Math.floor(Math.random() * chars.length);
-      password += chars[randomIndex];
-    }
-    return password;
-  }
-
+function main() {
+  console.log('main');
+  
+   $("generateButton").addEventListener("click",function () {
+    let password = generatePassword();
+    console.log(password);
+    //$("password").val(password));
+    
+   });
+   return;
   // Generate a password on button click
   $("#generateButton").on("click", function () {
     var password = generatePassword();
@@ -55,4 +44,31 @@ $(document).ready(function () {
   setTimeout(function () {
     $(".preloader").fadeToggle();
   }, 600);
-});
+}
+
+function generatePassword() {
+  var passwordLength   = $("passwordLength"); //$("passwordLength").val();
+  var includeUppercase = $("uppercaseCheckbox");//$("uppercaseCheckbox").prop("checked");
+  var includeLowercase = $("lowercaseCheckbox");//$("lowercaseCheckbox").prop("checked");
+  var includeNumbers   = $("numbersCheckbox");//$("numbersCheckbox").prop("checked");
+  var includeSymbols   = $("symbolsCheckbox");//$("symbolsCheckbox").prop("checked");
+  return 'password';
+  var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
+  var numberChars = "0123456789";
+  var symbolChars = "!@#$%^&*()_-+={}[]|\\:;\"'<>,.?/";
+
+  var chars = "";
+  if (includeUppercase) chars += uppercaseChars;
+  if (includeLowercase) chars += lowercaseChars;
+  if (includeNumbers) chars += numberChars;
+  if (includeSymbols) chars += symbolChars;
+
+  var password = "";
+  for (var i = 0; i < passwordLength; i++) {
+    var randomIndex = Math.floor(Math.random() * chars.length);
+    password += chars[randomIndex];
+  }
+  return password;
+}
+
