@@ -55,8 +55,8 @@ Contributions to the Password Generator Tool are welcome and appreciated. To con
 ##  License 
 
 The Password Generator Tool is open source software licensed under the MIT license. See the [LICENSE](LICENSE) file for more information.
-```
-var $ = (id) => document.getElementById(id);
+
+```var $ = (id) => document.getElementById(id);
 main();
 
 function main() {
@@ -116,5 +116,4 @@ function generatePassword() {
     password += chars[randomIndex];
   }
   return password;
-}
-```
+}```
