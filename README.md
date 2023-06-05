@@ -1,12 +1,12 @@
 # Password Generator
 
 ![Password Generator](assets/img/docs-img/secure.png)
-## <b> DeMayhemed by Code@hookupglobal.com
-## <b> My Overview </b>
+##  DeMayhemed by Code@hookupglobal.com
+##  My Overview 
 
 A secure and user-friendly password generator tool that helps you generate strong passwords for your online accounts. It allows you to customize your passwords by selecting options for uppercase letters, lowercase letters, numbers, and special characters. You can also choose the length of the password (between 8 and 128 characters) to create a unique and complex password that meets your requirements.
 
-### <b> Features </b>
+###  Features 
 
 - Customizable options for generating passwords (uppercase letters, lowercase letters, numbers, and special characters)
 - Ability to set password length between 8 and 128 characters
@@ -14,13 +14,13 @@ A secure and user-friendly password generator tool that helps you generate stron
 - User-friendly interface that makes it easy to generate passwords quickly
 - Cross-browser compatibility (works on all modern browsers)
 
-### <b> Screenshots </b>
+###  Screenshots 
 
 ![Password Generator Screenshot 1](assets/img/screenshot-docs/pc-1.png)
 
 ![Password Generator Screenshot 2](assets/img/screenshot-docs/pc-2.png)
 
-## <b> Installation </b>
+##  Installation 
 
 To use the Password Generator Tool, simply visit the [Password Generator website](https://password-generator-karthik.netlify.app/) and follow the instructions to generate a new password. 
 
@@ -30,7 +30,7 @@ If you want to run the Password Generator Tool locally, follow these steps:
 2. Navigate to the project directory by running `cd password-generator`
 3. Open the `index.html` file in your preferred web browser
 
-## <b> Usage </b>
+##  Usage 
 
 To generate a password using the Password Generator Tool, follow these steps:
 
@@ -40,7 +40,7 @@ To generate a password using the Password Generator Tool, follow these steps:
 4. Click on the "Generate Password" button to generate a new password
 5. Copy the generated password and use it for your account
 
-## <b> Contributing </b>
+##  Contributing 
 
 Contributions to the Password Generator Tool are welcome and appreciated. To contribute to the project, please follow these steps:
 
@@ -52,6 +52,6 @@ Contributions to the Password Generator Tool are welcome and appreciated. To con
 6. Push your changes to your fork of the repository by running `git push origin my-new-feature`
 7. Create a new pull request by going to the repository page on GitHub and clicking on the "New pull request" button
 
-## <b> License </b>
+##  License 
 
 The Password Generator Tool is open source software licensed under the MIT license. See the [LICENSE](LICENSE) file for more information.
