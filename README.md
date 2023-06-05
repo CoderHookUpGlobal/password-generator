@@ -57,6 +57,10 @@ Contributions to the Password Generator Tool are welcome and appreciated. To con
 
 The Password Generator Tool is open source software licensed under the MIT license. See the [LICENSE](LICENSE) file for more information.
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 
 ```javascript
