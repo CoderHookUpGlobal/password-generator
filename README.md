@@ -1,4 +1,4 @@
-# <b> Password Generator </b>
+# Password Generator
 
 ![Password Generator](assets/img/docs-img/secure.png)
 ## <b> DeMayhemed by Code@hookupglobal.com
