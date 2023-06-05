@@ -59,7 +59,7 @@ The Password Generator Tool is open source software licensed under the MIT licen
 
 
 
-```
+```javascript
 var $ = (id) => document.getElementById(id);
 main();
 
